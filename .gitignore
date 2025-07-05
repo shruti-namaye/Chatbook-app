@@ -1,0 +1,57 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+
+# Database
+*.local
+*.db
+*.sqlite
+
+# Build output
+dist/
+build/
+public/build/
+.vite/
+
+# React/CRA specific
+*.cache/
+.cache/
+*.tgz
+
+# VSCode settings
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Socket.IO temporary files
+*.sock
+
+# Coverage reports
+coverage/
+
+# Others
+*.log
+*.pid
+*.seed
+*.bak
+*.backup
+
+# Optional: ignore compiled TypeScript (if using)
+*.tsbuildinfo
